@@ -1,0 +1,32 @@
+[02-Oct-2026 15:33:51 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm in C:\xampp\htdocs\basic\index.php:400
+Stack trace:
+#0 C:\xampp\htdocs\basic\index.php(400): password_hash('123456789', 12345)
+#1 C:\xampp\htdocs\basic\index.php(604): auth_register(Array)
+#2 C:\xampp\htdocs\basic\index.php(563): handle_post('register', '')
+#3 {main}
+  thrown in C:\xampp\htdocs\basic\index.php on line 400
+[02-Oct-2026 15:34:26 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm in C:\xampp\htdocs\basic\index.php:400
+Stack trace:
+#0 C:\xampp\htdocs\basic\index.php(400): password_hash('123456', 12345)
+#1 C:\xampp\htdocs\basic\index.php(604): auth_register(Array)
+#2 C:\xampp\htdocs\basic\index.php(563): handle_post('register', '')
+#3 {main}
+  thrown in C:\xampp\htdocs\basic\index.php on line 400
+[02-Oct-2026 15:35:24 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm in C:\xampp\htdocs\basic\index.php:400
+Stack trace:
+#0 C:\xampp\htdocs\basic\index.php(400): password_hash('123456', 123456)
+#1 C:\xampp\htdocs\basic\index.php(604): auth_register(Array)
+#2 C:\xampp\htdocs\basic\index.php(563): handle_post('register', '')
+#3 {main}
+  thrown in C:\xampp\htdocs\basic\index.php on line 400
+[08-Oct-2026 15:14:33 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm in C:\xampp\htdocs\basic\index.php:400
+Stack trace:
+#0 C:\xampp\htdocs\basic\index.php(400): password_hash('123456', 123456)
+#1 C:\xampp\htdocs\basic\index.php(604): auth_register(Array)
+#2 C:\xampp\htdocs\basic\index.php(563): handle_post('register', '')
+#3 {main}
+  thrown in C:\xampp\htdocs\basic\index.php on line 400
+[13-Oct-2026 13:02:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\basic\index.php on line 2088
+[13-Oct-2026 13:02:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\basic\index.php on line 2088
+[13-Oct-2026 13:02:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\basic\index.php on line 2089
+[13-Oct-2026 13:02:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\basic\index.php on line 2089
